@@ -78,6 +78,7 @@ victor@victorpc:astro-ssr-blog$ cat .vscode/extensions.json
 ### 12:27 - Pages Folder & Routing
 
 - File based routing
+- Scaffold home page with fully functioning html mockup
 
 ### 17:26 - Image Component
 
