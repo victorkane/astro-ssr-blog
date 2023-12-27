@@ -10,7 +10,7 @@
 
 ## Notes
 
-### Install and Setup
+### 7:35 Install and Setup
 
 - Create initial Astro project
 - Make sure recommended Astro VS Code extension is enabled for user and/or workspace
@@ -74,6 +74,56 @@ victor@victorpc:astro-ssr-blog$ cat .vscode/extensions.json
 ```
 
 - Test Tailwind install
+
+### 12:27 - Pages Folder & Routing
+
+### 17:26 - Image Component
+
+### 24:58 - Component Script
+
+### 29:06 - Layout & Slots
+
+### 36:45 - Component Props
+
+### 39:31 - Using Constants
+
+### 42:52 - Navbar & Footer Components
+
+### 46:51 - Custom 404 Page
+
+### 51:18 - Collections & Markdown
+
+### 55:27 - Collection Schema
+
+### 58:17 - Querying Collections
+
+### 01:07:02 - Format & Sort By Date
+
+### 01:12:36 - Article Card Component
+
+### 01:15:52 - Homepage Articles
+
+### 01:25:08 - Most Recent Article
+
+### 01:31:11 - Slug & getStaticPaths
+
+### 01:37:12 - SSR Config & Single Article
+
+### 01:47:30 - Tags Component
+
+### 01:53:18 - Tag Page
+
+### 01:59:34 - Footer Tags
+
+### 02:04:29 - Search Page
+
+### 02:16:15 - API Endpoints
+
+### 02:25:55 - Pagination Component
+
+### 02:34:05 - Disable Prev & Next
+
+### 02:39:36 - Vercel Deployment
 
 ## Astro Starter Kit: Minimal (from typical Astro installation)
 
