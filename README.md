@@ -73,6 +73,8 @@ victor@victorpc:astro-ssr-blog$ cat .vscode/extensions.json
 }
 ```
 
+- Test Tailwind install
+
 ## Astro Starter Kit: Minimal (from typical Astro installation)
 
 ```sh
