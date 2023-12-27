@@ -80,7 +80,33 @@ victor@victorpc:astro-ssr-blog$ cat .vscode/extensions.json
 - File based routing
 - Scaffold home page with fully functioning html mockup
 
+```bash
+commit 1788e839d72e074a64f23fae2ecfdd6f542e031b (HEAD -> main, origin/main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Wed Dec 27 16:59:28 2023 -0300
+
+    fix(home page): successfully removed redundant cdn tailwind depenency
+
+commit 951096f7469eeee3405d09397a583d9f774fe65f
+Author: victorkane <victorkane@gmail.com>
+Date:   Wed Dec 27 16:53:47 2023 -0300
+
+    build: Scaffold home page with fully functioning html mockup
+
+commit 34f488395b972d6614b44de644d29ede592e80f8
+Author: victorkane <victorkane@gmail.com>
+Date:   Wed Dec 27 13:11:27 2023 -0300
+
+    chore: scaffold file and folder based routing
+```
+
 ### 17:26 - Image Component
+
+- `src/` vs `public/` folder for images (see [Astro Docs - Images](https://docs.astro.build/en/guides/images/))
+- To avoid problems experienced with Netlify, etc.:
+  - article content images: `public/images` (treated as img's as per usual, but leading `/` must figure in path for automatic import (Image's must be imported, and must have width and height attributes (100% for `images`)))
+  - article content images are not optimized either, since the import does not occur on the server side (during, for example, SSG) as is the case of log, which is explicitly imported in the component script (server executed "front matter" at top of file); so it is pointless to do what we are doing (using `Image` instead of html `img` element), but we are doing it to be able to show that the alternative does actually exist.
+  - site images: logo, etc: `src/images` for importing and using as if they were components, for optimization and other benefits; otherwise they would have to be placed in `public/images` also
 
 ### 24:58 - Component Script
 
