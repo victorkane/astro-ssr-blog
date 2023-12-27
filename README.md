@@ -77,6 +77,8 @@ victor@victorpc:astro-ssr-blog$ cat .vscode/extensions.json
 
 ### 12:27 - Pages Folder & Routing
 
+- File based routing
+
 ### 17:26 - Image Component
 
 ### 24:58 - Component Script
