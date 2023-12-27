@@ -1,4 +1,79 @@
-# Astro Starter Kit: Minimal
+# Astro SSR Blog
+
+## Ref
+
+- [YT Traversy Media 2023-12-18 Astro Quick Start Course | Build an SSR Blog](https://youtu.be/XoIHKO6AkoM?si=SASPBUTBb5rlnGLx)
+- [GH Final Code Astro Blog](https://github.com/bradtraversy/astro-blog)
+- [Demo](https://astro-blog-flame.vercel.app/)
+- [Course Page](https://www.traversymedia.com/astro-quick-start)
+- [Become a Traversy Media Member](https://www.traversymedia.com/offers/2NFSzqDt/checkout)
+
+## Notes
+
+### Install and Setup
+
+- Create initial Astro project
+- Make sure recommended Astro VS Code extension is enabled for user and/or workspace
+
+```bash
+commit d9bc9edc14ba04894d13707af8873c4ddbc2892d (HEAD -> master)
+Author: victorkane <victorkane@gmail.com>
+Date:   Wed Dec 27 12:21:56 2023 -0300
+
+    Initial commit
+```
+
+- Add Tailwind Integration
+
+```bash
+victor@victorpc:astro-ssr-blog$ npx astro add tailwind
+✔ Resolving packages...
+12:33:08
+  Astro will run the following command:
+  If you skip this step, you can always run it yourself later
+
+ ╭──────────────────────────────────────────────────────────╮
+ │ npm install @astrojs/tailwind@^5.0.4 tailwindcss@^3.4.0  │
+ ╰──────────────────────────────────────────────────────────╯
+
+✔ Continue? … yes
+✔ Installing dependencies...
+12:33:36
+  Astro will generate a minimal ./tailwind.config.mjs file.
+
+✔ Continue? … yes
+12:33:40
+  Astro will make the following changes to your config file:
+
+ ╭ astro.config.mjs ─────────────────────────────╮
+ │ import { defineConfig } from 'astro/config';  │
+ │                                               │
+ │ import tailwind from "@astrojs/tailwind";     │
+ │                                               │
+ │ // https://astro.build/config                 │
+ │ export default defineConfig({                 │
+ │   integrations: [tailwind()]                  │
+ │ });                                           │
+ ╰───────────────────────────────────────────────╯
+
+✔ Continue? … yes
+12:33:42
+   success  Added the following integration to your project:
+  - @astrojs/tailwind
+victor@victorpc:astro-ssr-blog$
+```
+
+- Make Sure tailwindcss VS Code extension is enabled
+
+```bash
+victor@victorpc:astro-ssr-blog$ cat .vscode/extensions.json
+{
+  "recommendations": ["astro-build.astro-vscode", "bradlc.vscode-tailwindcss"],
+  "unwantedRecommendations": []
+}
+```
+
+## Astro Starter Kit: Minimal (from typical Astro installation)
 
 ```sh
 npm create astro@latest -- --template minimal
