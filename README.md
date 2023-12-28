@@ -172,6 +172,20 @@ Date:   Thu Dec 28 16:23:06 2023 -0300
 
 - [Astro Docs. Component Props](https://docs.astro.build/en/core-concepts/astro-components/#component-props)
 
+```bash
+commit 2ebb0f1cd79ff248ea77e2b6abb1c9a60663e077 (HEAD -> main, origin/main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Thu Dec 28 16:56:29 2023 -0300
+
+    chore(component props): add component prop for title for main site pages
+
+ README.md                    |   2 +
+ src/layouts/MainLayout.astro |  41 ++--
+ src/pages/about.astro        |   2 +-
+ src/pages/index.astro        | 583 +++++++++++++++++++++++++--------------------------
+ 4 files changed, 308 insertions(+), 320 deletions(-)
+```
+
 ### 39:31 - Using Constants
 
 ### 42:52 - Navbar & Footer Components
