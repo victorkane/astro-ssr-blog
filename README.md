@@ -155,6 +155,19 @@ Date:   Thu Dec 28 10:43:50 2023 -0300
 
 #### 33:35 Migrate content for articles and about page from blog-theme html mockup to Astro pages
 
+```bash
+commit fe425c7218fa3179bdaa029673cd7f651141b9a0 (HEAD -> main, origin/main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Thu Dec 28 16:23:06 2023 -0300
+
+    feat(flesh out pages): Migrate content for articles and about page from blog-theme html mockup to Astro pages
+
+ README.md                      |  17 ++++
+ src/pages/about.astro          |  55 ++++++++++++-
+ src/pages/articles/index.astro | 212 ++++++++++++++++++++++++++++++++++++++++++++++++-
+ 3 files changed, 280 insertions(+), 4 deletions(-)
+```
+
 ### 36:45 - Component Props
 
 ### 39:31 - Using Constants
