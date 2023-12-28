@@ -8,7 +8,9 @@
 - [Course Page](https://www.traversymedia.com/astro-quick-start)
 - [Become a Traversy Media Member](https://www.traversymedia.com/offers/2NFSzqDt/checkout)
 
-## Notes
+- [ ] Create branch `use/ui-shadcn` using [shadcn for astro](https://ui.shadcn.com/docs/installation/astro) instead of [flowbite](https://flowbite.com/)
+
+## Notes on first run-through
 
 ### 7:35 Install and Setup
 
@@ -110,7 +112,31 @@ Date:   Wed Dec 27 13:11:27 2023 -0300
 
 ### 24:58 - Component Script
 
+- Physical code fence at the top of astro components and pages contains the [Component Script](https://docs.astro.build/en/core-concepts/astro-components/#the-component-script)
+- Runs on the server (while executing either SSG or SSR) and not on the client (will not be observable on client side browser)
+- Console log not seen in browser but rather in the log running `npm run dev`, for example.
+- Concepts explained in video using `src/pages/test.astro` not present in repo
+
 ### 29:06 - Layout & Slots
+
+- [Astro Docs. Layouts](https://docs.astro.build/en/core-concepts/layouts/)
+- Added support for prettier
+
+```
+commit 1d1c3037bb0e6ca536480e35f0dd5651c1acc87f (HEAD -> main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Thu Dec 28 10:28:03 2023 -0300
+
+    build(editor): add prettier support for astro files
+
+ .prettierignore   | 13 +++++++++++++
+ .prettierrc       | 23 +++++++++++++++++++++++
+ package-lock.json | 63 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ package.json      |  4 ++++
+ 4 files changed, 103 insertions(+)
+```
+
+- Extracted Main Layout from home page and applied it to home, about and articles listing pages reachable from navbar
 
 ### 36:45 - Component Props
 
