@@ -170,6 +170,8 @@ Date:   Thu Dec 28 16:23:06 2023 -0300
 
 ### 36:45 - Component Props
 
+- [Astro Docs. Component Props](https://docs.astro.build/en/core-concepts/astro-components/#component-props)
+
 ### 39:31 - Using Constants
 
 ### 42:52 - Navbar & Footer Components
