@@ -138,6 +138,23 @@ Date:   Thu Dec 28 10:28:03 2023 -0300
 
 - Extracted Main Layout from home page and applied it to home, about and articles listing pages reachable from navbar
 
+```bash
+commit b793cb03ea9dc87494bd1f47050293f515c68cb1 (HEAD -> main, origin/main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Thu Dec 28 10:43:50 2023 -0300
+
+    Extract Main Layout from home page and apply it to home, about and articles listing pages navigable from navbar
+
+ README.md                      |  28 +++++++++-
+ src/layouts/MainLayout.astro   | 149 +++++++++++++++++++++++++++++++++++++++++++++++++
+ src/pages/about.astro          |   9 ++-
+ src/pages/articles/index.astro |   9 ++-
+ src/pages/index.astro          |  86 ++--------------------------
+ 5 files changed, 196 insertions(+), 85 deletions(-)
+```
+
+#### 33:35 Migrate content for articles and about page from blog-theme html mockup to Astro pages
+
 ### 36:45 - Component Props
 
 ### 39:31 - Using Constants
