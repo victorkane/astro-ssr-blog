@@ -188,6 +188,18 @@ Date:   Thu Dec 28 16:56:29 2023 -0300
 
 ### 39:31 - Using Constants
 
+```bash
+commit 97954f1dfa8aa7f5bd86e92fd5e97a320e0f019f (HEAD -> main, origin/main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Fri Dec 29 07:57:39 2023 -0300
+
+    chore: using site-wide configuration constants
+
+ src/constants.ts             | 5 +++++
+ src/layouts/MainLayout.astro | 4 +++-
+ 2 files changed, 8 insertions(+), 1 deletion(-)
+```
+
 ### 42:52 - Navbar & Footer Components
 
 ### 46:51 - Custom 404 Page
