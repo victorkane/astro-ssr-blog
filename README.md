@@ -380,6 +380,17 @@ Date:   Fri Dec 29 17:12:57 2023 -0300
 
 ### 01:15:52 - Homepage Articles
 
+```bash
+commit f7775e7b993c182ee5de44edcabf22b37a4a58ef (HEAD -> main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Fri Dec 29 18:04:36 2023 -0300
+
+    chore(homepage): render main grid  articles dynamically using ArticleCard component
+
+ src/pages/index.astro | 193 ++++++----------------------------------------------------
+ 1 file changed, 20 insertions(+), 173 deletions(-)
+```
+
 ### 01:25:08 - Most Recent Article
 
 ### 01:31:11 - Slug & getStaticPaths
