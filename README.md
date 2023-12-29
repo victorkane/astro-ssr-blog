@@ -258,6 +258,29 @@ victor@victorpc:astro-ssr-blog$ npx astro sync
 11:26:02 Types generated 198ms
 ```
 
+- Scaffold blog listing page
+
+```bash
+commit 8c9f42a56453417d453a77168abb3815918b28f2 (HEAD -> main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Fri Dec 29 11:58:54 2023 -0300
+
+    chore(blog collection): scaffold articles listing page querying actual blog collection
+
+ README.md                                          |  24 +++-
+ src/content/blog/best-laptops-for-developers.md    |  40 ++++++
+ src/content/blog/cannon-excellence.md              |  52 +++++++
+ src/content/blog/cutting-edge-tablets.md           |  52 +++++++
+ src/content/blog/elevate-your-mobile-experience.md |  52 +++++++
+ src/content/blog/guardian-of-the-digital-realm.md  |  54 +++++++
+ src/content/blog/immerse-in-the-virtual-world.md   |  52 +++++++
+ src/content/blog/world-of-drones.md                |  52 +++++++
+ src/content/config.ts                              |  15 ++
+ src/env.d.ts                                       |   1 +
+ src/pages/articles/index.astro                     | 217 +++++------------------------
+ 11 files changed, 422 insertions(+), 189 deletions(-)
+```
+
 ### 01:07:02 - Format & Sort By Date
 
 ### 01:12:36 - Article Card Component
