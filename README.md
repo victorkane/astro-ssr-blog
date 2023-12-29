@@ -294,6 +294,21 @@ Date:   Fri Dec 29 13:20:41 2023 -0300
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
+- query all schema items as well as article slug (front matter only) from blog collection for articles on listing page
+
+```bash
+commit 17c7f9a5ada2a71b49c2c28f4e1549986f441521 (HEAD -> main, origin/main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Fri Dec 29 13:29:49 2023 -0300
+
+    chore(blog collection): query all schema items as well as article slug (front matter only) from blog collection for articles on listing page
+
+ src/pages/articles/index.astro | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+```
+
+- tags
+
 ### 01:07:02 - Format & Sort By Date
 
 ### 01:12:36 - Article Card Component
