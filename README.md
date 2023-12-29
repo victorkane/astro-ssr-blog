@@ -307,7 +307,19 @@ Date:   Fri Dec 29 13:29:49 2023 -0300
  1 file changed, 4 insertions(+), 4 deletions(-)
 ```
 
-- tags
+- query and initially format dynamic tag details for each article on articles listing page
+
+```bash
+commit 4d7593dbf9d11e0785f0975f21723d69d5e711a0 (HEAD -> main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Fri Dec 29 13:48:05 2023 -0300
+
+    chore(blog collection): query and initially format dynamic tag details for each article on articles listing page
+
+ README.md                      | 15 +++++++++++++++
+ src/pages/articles/index.astro | 17 +++++++++++------
+ 2 files changed, 26 insertions(+), 6 deletions(-)
+```
 
 ### 01:07:02 - Format & Sort By Date
 
