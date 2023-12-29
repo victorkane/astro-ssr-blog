@@ -281,6 +281,19 @@ Date:   Fri Dec 29 11:58:54 2023 -0300
  11 files changed, 422 insertions(+), 189 deletions(-)
 ```
 
+- query real titles from blog collection for articles on listing page
+
+```bash
+commit 60114eb05191baadfe77d0cd813322dbd24c0904 (HEAD -> main, origin/main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Fri Dec 29 13:20:41 2023 -0300
+
+    chore(blog collection): query real titles from blog collection for articles on listing page
+
+ src/pages/articles/index.astro | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+```
+
 ### 01:07:02 - Format & Sort By Date
 
 ### 01:12:36 - Article Card Component
