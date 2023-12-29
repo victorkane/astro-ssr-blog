@@ -366,6 +366,18 @@ Date:   Fri Dec 29 15:57:23 2023 -0300
 
 ### 01:12:36 - Article Card Component
 
+```bash
+commit 5c0e3c7d98915b234489052e452d1e4a49de98c1 (HEAD -> main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Fri Dec 29 17:12:57 2023 -0300
+
+    chore(components): add Article Card component
+
+ src/components/ArticleCard.astro | 43 +++++++++++++++++++++++++++++++++++++++++++
+ src/pages/articles/index.astro   | 38 ++------------------------------------
+ 2 files changed, 45 insertions(+), 36 deletions(-)
+```
+
 ### 01:15:52 - Homepage Articles
 
 ### 01:25:08 - Most Recent Article
