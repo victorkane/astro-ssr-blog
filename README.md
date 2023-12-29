@@ -351,6 +351,19 @@ Date:   Fri Dec 29 15:45:47 2023 -0300
  3 files changed, 23 insertions(+), 6 deletions(-)
 ```
 
+- sort article publishing dates in descending order on list articles page
+
+```bash
+commit 9c4c67659a37b5f6305e0cba67c87476561df8ea (HEAD -> main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Fri Dec 29 15:57:23 2023 -0300
+
+    feat(article listing page): sort article publishing dates in descending order on list articles page
+
+ src/pages/articles/index.astro | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+```
+
 ### 01:12:36 - Article Card Component
 
 ### 01:15:52 - Homepage Articles
