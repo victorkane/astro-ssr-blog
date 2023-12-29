@@ -323,6 +323,21 @@ Date:   Fri Dec 29 13:48:05 2023 -0300
 
 ### 01:07:02 - Format & Sort By Date
 
+- format date according to locale being used on list articles page
+
+```bash
+commit 41d0e0847a7f2703fe0a37055b82d366a793c529 (HEAD -> main, origin/main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Fri Dec 29 15:37:36 2023 -0300
+
+    chore(list articles page): format date according to locale being used
+
+ src/pages/articles/index.astro | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+```
+
+- abstract locale aware date formatting function into reusable utilities file
+
 ### 01:12:36 - Article Card Component
 
 ### 01:15:52 - Homepage Articles
