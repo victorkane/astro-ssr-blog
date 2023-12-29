@@ -234,11 +234,29 @@ victor@victorpc:astro-ssr-blog$ npx astro sync
 
 ### 46:51 - Custom 404 Page
 
-### 51:18 - Collections & Markdown
+```bash
+commit 7f438ca6a775d473dcd940bd807a3b9fde4a89d9 (HEAD -> main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Fri Dec 29 09:02:08 2023 -0300
 
-### 55:27 - Collection Schema
+    feat: add custom 404 page
 
-### 58:17 - Querying Collections
+ src/pages/404.astro | 16 ++++++++++++++++
+ 1 file changed, 16 insertions(+)
+```
+
+### 51:18 - Collections & Markdown / 55:27 - Collection Schema / 58:17 - Querying Collections
+
+- File-based content modeling in Astro!
+- [ ] Test with CMS [Front Matter](https://frontmatter.codes/)
+- Ref [Content Collections. Astro Docs](https://docs.astro.build/en/guides/content-collections/)
+- If necessary (red line under `astro:content` in import statement) run `astro sync`:
+
+```bash
+victor@victorpc:astro-ssr-blog$ npx astro sync
+11:26:02 [types] Added src/env.d.ts type declarations
+11:26:02 Types generated 198ms
+```
 
 ### 01:07:02 - Format & Sort By Date
 
