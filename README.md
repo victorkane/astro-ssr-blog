@@ -338,6 +338,19 @@ Date:   Fri Dec 29 15:37:36 2023 -0300
 
 - abstract locale aware date formatting function into reusable utilities file
 
+```bash
+commit 4d89df9b109ab5c7da4b985344154fc235a60b7a (HEAD -> main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Fri Dec 29 15:45:47 2023 -0300
+
+    chore(utils): abstract locale aware date formatting function into reusable utilities file
+
+ README.md                      | 15 +++++++++++++++
+ src/pages/articles/index.astro |  7 +------
+ src/utils.ts                   |  7 +++++++
+ 3 files changed, 23 insertions(+), 6 deletions(-)
+```
+
 ### 01:12:36 - Article Card Component
 
 ### 01:15:52 - Homepage Articles
