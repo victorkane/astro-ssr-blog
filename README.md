@@ -202,6 +202,36 @@ Date:   Fri Dec 29 07:57:39 2023 -0300
 
 ### 42:52 - Navbar & Footer Components
 
+```bash
+commit 8fa1b1b105f5f77af69f19b11b9be601b9d3c2be (HEAD -> main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Fri Dec 29 08:39:08 2023 -0300
+
+   build(types): (optional) types for some props
+
+src/layouts/MainLayout.astro | 4 ++++
+1 file changed, 4 insertions(+)
+
+commit e9301dd12eb3618b78af9ae65625c0f95bfe17a0
+Author: victorkane <victorkane@gmail.com>
+Date:   Fri Dec 29 08:21:56 2023 -0300
+
+   chore(layout components): abstract out Navbar and Footer components
+
+.vscode/settings.json        |   1 +
+src/components/Footer.astro  |  62 +++++++++++++++++++++++++
+src/components/Navbar.astro  |  62 +++++++++++++++++++++++++
+src/layouts/MainLayout.astro | 128 ++-------------------------------------------------
+src/pages/index.astro        |  63 -------------------------
+5 files changed, 130 insertions(+), 186 deletions(-)
+```
+
+- Generate TypeScript types for all Astro modules (in `src/env.d.ts`). See [astro sync. Astro Docs](https://docs.astro.build/en/reference/cli-reference/#astro-sync)
+
+```bash
+victor@victorpc:astro-ssr-blog$ npx astro sync
+```
+
 ### 46:51 - Custom 404 Page
 
 ### 51:18 - Collections & Markdown
