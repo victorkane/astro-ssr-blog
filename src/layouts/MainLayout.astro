@@ -5,6 +5,10 @@ import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../constants';
 
 const { title = 'Articles, Stories & Tutorials for Tech People' } = Astro.props;
+
+interface Props {
+  title?: string;
+}
 ---
 
 <!doctype html>
