@@ -393,6 +393,18 @@ Date:   Fri Dec 29 18:04:36 2023 -0300
 
 ### 01:25:08 - Most Recent Article
 
+```bash
+commit 2232209e051443a6246418da5678aeb8798beb60 (HEAD -> main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Fri Dec 29 19:33:25 2023 -0300
+
+    chore(homepage): render most recent article dynamically using MostRecentArticle component
+
+ src/components/MostRecentArticle.astro | 40 ++++++++++++++++++++++++++++++++++++++++
+ src/pages/index.astro                  | 31 ++-----------------------------
+ 2 files changed, 42 insertions(+), 29 deletions(-)
+```
+
 ### 01:31:11 - Slug & getStaticPaths
 
 ### 01:37:12 - SSR Config & Single Article
