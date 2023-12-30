@@ -424,6 +424,32 @@ Date:   Sat Dec 30 09:17:55 2023 -0300
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
+- and then also do
+
+```bash
+commit 13704dec72c1662557cc92f262638c100d49601a (origin/main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Sat Dec 30 14:07:00 2023 -0300
+
+    fix(ArticleCard component): prefix title link path as well as image link path with proper routing path
+
+ src/components/ArticleCard.astro | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+```
+
+- Static approach fetches and renders title dynamically for any single article page only just to see what static looks like
+
+```bash
+commit f8856c50a08c408fca547ba5650ef04297a99cb0 (HEAD -> main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Sat Dec 30 14:08:31 2023 -0300
+
+    feat(individual article page): add single article page rendering using default static approach
+
+ src/pages/articles/[...slug].astro | 23 +++++++++++++++++++++++
+ 1 file changed, 23 insertions(+)
+```
+
 ### 01:37:12 - SSR Config & Single Article
 
 - In this section we will move over to server side rendering (SSR), which requires special Astro configuration and changing our code for the single article page
