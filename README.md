@@ -529,6 +529,18 @@ Date:   Sat Dec 30 16:16:29 2023 -0300
 
 - page to list all articles corresponding to the url tag parameter
 
+```bash
+commit 7bdb23cc80f670af929b7174e90da7fa663eedea (HEAD -> main, origin/main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Sat Dec 30 16:42:51 2023 -0300
+
+    feat(tags): Add individual tag listings page
+
+ README.md                             |  2 ++
+ src/pages/articles/tag/[...tag].astro | 28 ++++++++++++++++++++++++++++
+ 2 files changed, 30 insertions(+)
+```
+
 ### 01:59:34 - Footer Tags
 
 ### 02:04:29 - Search Page
