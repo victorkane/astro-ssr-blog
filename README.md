@@ -527,6 +527,8 @@ Date:   Sat Dec 30 16:16:29 2023 -0300
 
 ### 01:53:18 - Tag Page
 
+- page to list all articles corresponding to the url tag parameter
+
 ### 01:59:34 - Footer Tags
 
 ### 02:04:29 - Search Page
