@@ -453,6 +453,47 @@ Date:   Sat Dec 30 14:08:31 2023 -0300
 ### 01:37:12 - SSR Config & Single Article
 
 - In this section we will move over to server side rendering (SSR), which requires special Astro configuration and changing our code for the single article page
+- First, we replace static implementation with simplified SSR approach
+
+```bash
+commit 99f5364f304a52288ad5fa493b6f8d0434463021 (HEAD -> main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Sat Dec 30 14:19:35 2023 -0300
+
+    build(individual article page): Replace static implementation with simplified SSR approach
+
+ src/pages/articles/[...slug].astro | 18 +-----------------
+ 1 file changed, 1 insertion(+), 17 deletions(-)
+```
+
+- But when we click on any link leading to an individual article page, we get the following error in dev run log and in browser:
+
+```bash
+14:17:19 [ERROR] [GetStaticPathsRequired] `getStaticPaths()` function is required for dynamic routes. Make sure that you `export` a `getStaticPaths` function from your dynamic route.
+  Hint:
+    See https://docs.astro.build/en/core-concepts/routing/#dynamic-routes for more information on dynamic routes.
+
+    Alternatively, set `output: "server"` or `output: "hybrid"` in your Astro config file to switch to a non-static server build. This error can also occur if using `export const prerender = true;`.
+    See https://docs.astro.build/en/guides/server-side-rendering/ for more information on non-static rendering.
+  Error reference:
+    https://docs.astro.build/en/reference/errors/get-static-paths-required/
+  Stack trace:
+    at /home/victor/Work/Learn/Astro/2023/TraversyMedia/2023-12-astro-ssr-blog/dev/astro-ssr-blog/src/pages/articles/[...slug].astro
+```
+
+- This is because static rendering is configured automatically by default. But if we change our configuration, we don't get the error and our simplistic single article page is rendered without errors:
+- However, if we configure Astro for server output, the error disappears and `http://localhost:4321/articles/the-best-laptops-for-developers-in-2024` is rendered without showing any error
+
+```bash
+commit 8c61ef06d14b86c008e5a5e9d1309efd0b28e6f1 (HEAD -> main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Sat Dec 30 14:25:44 2023 -0300
+
+    build(output mode): configure for server output
+
+ astro.config.mjs | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+```
 
 ### 01:47:30 - Tags Component
 
