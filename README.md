@@ -511,6 +511,20 @@ Date:   Sat Dec 30 14:56:32 2023 -0300
 
 ### 01:47:30 - Tags Component
 
+```bash
+commit 4c901f3e7c92b286fba06f73e91d804538fd20c4 (HEAD -> main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Sat Dec 30 16:16:29 2023 -0300
+
+    chore(tags): Add reusable Tag component
+
+ src/components/ArticleCard.astro   | 17 ++---------------
+ src/components/Tags.astro          | 25 +++++++++++++++++++++++++
+ src/pages/articles/[...slug].astro |  2 ++
+ src/utils.ts                       | 17 +++++++++++++++--
+ 4 files changed, 44 insertions(+), 17 deletions(-)
+```
+
 ### 01:53:18 - Tag Page
 
 ### 01:59:34 - Footer Tags
