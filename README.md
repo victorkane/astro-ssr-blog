@@ -407,7 +407,26 @@ Date:   Fri Dec 29 19:33:25 2023 -0300
 
 ### 01:31:11 - Slug & getStaticPaths
 
+- For single article page
+- For static websites, you use `getStaticPaths()`
+- In next section we will move over to server side rendering (SSR), which handles things differently
+- In this section, we will use the static approach, just to see what that is like
+- fix ArticleCard component: prefix link path with proper routing path (`/articles/`)
+
+```bash
+commit 281e1aaf31d9ca78dde6aa398dbdbb381f6224f7 (HEAD -> main, origin/main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Sat Dec 30 09:17:55 2023 -0300
+
+    fix(ArticleCard component): prefix link path with proper routing path
+
+ src/components/ArticleCard.astro | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+```
+
 ### 01:37:12 - SSR Config & Single Article
+
+- In this section we will move over to server side rendering (SSR), which requires special Astro configuration and changing our code for the single article page
 
 ### 01:47:30 - Tags Component
 
