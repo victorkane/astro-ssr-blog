@@ -495,7 +495,19 @@ Date:   Sat Dec 30 14:25:44 2023 -0300
  1 file changed, 4 insertions(+), 3 deletions(-)
 ```
 
-- Now, using `getEntry()` (to get a single object via SSR), we can go ahead and render the single article very easily via the parameters `blog` and `slug`
+- Now, using `getEntry()` (to get a single object via SSR), we can go ahead and render the single article via the parameters `blog` and `slug`, etc.
+
+```bash
+commit 73e5ba0d965420a9ba84b4f04c7d1087547a01f9 (HEAD -> main, origin/main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Sat Dec 30 14:56:32 2023 -0300
+
+    feat(single article): initial rendering using Server Side Renering (SSR) approach
+
+ README.md                          |  4 +++-
+ src/pages/articles/[...slug].astro | 46 +++++++++++++++++++++++++++++++++++++++++++++-
+ 2 files changed, 48 insertions(+), 2 deletions(-)
+```
 
 ### 01:47:30 - Tags Component
 
