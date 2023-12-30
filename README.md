@@ -466,7 +466,7 @@ Date:   Sat Dec 30 14:19:35 2023 -0300
  1 file changed, 1 insertion(+), 17 deletions(-)
 ```
 
-- But when we click on any link leading to an individual article page, we get the following error in dev run log and in browser:
+- But when we click on any link leading to an individual article page, upon rendering for example `http://localhost:4321/articles/the-best-laptops-for-developers-in-2024` we get the following error in dev run log and in browser:
 
 ```bash
 14:17:19 [ERROR] [GetStaticPathsRequired] `getStaticPaths()` function is required for dynamic routes. Make sure that you `export` a `getStaticPaths` function from your dynamic route.
@@ -494,6 +494,8 @@ Date:   Sat Dec 30 14:25:44 2023 -0300
  astro.config.mjs | 7 ++++---
  1 file changed, 4 insertions(+), 3 deletions(-)
 ```
+
+- Now, using `getEntry()` (to get a single object via SSR), we can go ahead and render the single article very easily via the parameters `blog` and `slug`
 
 ### 01:47:30 - Tags Component
 
