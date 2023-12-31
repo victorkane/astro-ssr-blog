@@ -586,6 +586,9 @@ Date:   Sun Dec 31 11:52:58 2023 -0300
 
 ### 02:16:15 - API Endpoints
 
+- [Astro Docs. Endpoints](https://docs.astro.build/en/core-concepts/endpoints/#_top)
+- We want to be able to make a GET query like this: `localhost:4321/api/search.json?query=boundless` (analogous to our regular search url from the previous section: `http://localhost:4321/articles/search?query=boundless`)
+
 ### 02:25:55 - Pagination Component
 
 ### 02:34:05 - Disable Prev & Next
