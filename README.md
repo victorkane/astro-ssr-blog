@@ -571,7 +571,17 @@ Date:   Sun Dec 31 09:49:51 2023 -0300
 - Search form is included also on the results page in order to facilitate reuse.
 
 ```bash
+commit 5de41c56829a832e6b238b1e7a98f0bb2037a6d2 (HEAD -> main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Sun Dec 31 11:52:58 2023 -0300
 
+    feat(search): add fully functional SSR form-based text search to major routed pages
+
+ README.md                       | 13 +++++++++++++
+ src/components/SearchForm.astro |  9 +++++----
+ src/pages/articles/index.astro  |  2 ++
+ src/pages/articles/search.astro | 44 ++++++++++++++++++++++++++++++++++++++++++++
+ 4 files changed, 64 insertions(+), 4 deletions(-)
 ```
 
 ### 02:16:15 - API Endpoints
