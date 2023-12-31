@@ -547,6 +547,18 @@ Date:   Sat Dec 30 16:42:51 2023 -0300
 - [Array.prototype.flatMap()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap) is also employed in the building of the footer component.
 - We have also taken the liberty here as we work our way through this great course to `sort()` the unique list of tags as they are rendered in the footer.
 
+```bash
+commit 5a28aa6723de3c3260da40f279ebbf6c745d3e1f (HEAD -> main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Sun Dec 31 09:49:51 2023 -0300
+
+    chore(footer): replace hard-coded list of tags with unique list of tags actually used in articles
+
+ README.md                   |  4 ++++
+ src/components/Footer.astro | 49 ++++++++++++++++++++++---------------------------
+ 2 files changed, 26 insertions(+), 27 deletions(-)
+```
+
 ### 02:04:29 - Search Page
 
 ### 02:16:15 - API Endpoints
