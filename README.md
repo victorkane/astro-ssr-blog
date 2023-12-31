@@ -543,6 +543,10 @@ Date:   Sat Dec 30 16:42:51 2023 -0300
 
 ### 01:59:34 - Footer Tags
 
+- We want to get a unique list of all tags used on the app. For which we grab all the tags specified for each article of the blog content type, and then apply the javascript [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) object constructor.
+- [Array.prototype.flatMap()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap) is also employed in the building of the footer component.
+- We have also taken the liberty here as we work our way through this great course to `sort()` the unique list of tags as they are rendered in the footer.
+
 ### 02:04:29 - Search Page
 
 ### 02:16:15 - API Endpoints
