@@ -589,6 +589,18 @@ Date:   Sun Dec 31 11:52:58 2023 -0300
 - [Astro Docs. Endpoints](https://docs.astro.build/en/core-concepts/endpoints/#_top)
 - We want to be able to make a GET query like this: `localhost:4321/api/search.json?query=boundless` (analogous to our regular search url from the previous section: `http://localhost:4321/articles/search?query=boundless`)
 
+```bash
+commit 9915475d2d208808ea534500846747e7027079c1 (HEAD -> main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Sun Dec 31 14:58:39 2023 -0300
+
+    feat(API): add API endpoint for text search on articles
+
+ README.md                    |  3 +++
+ src/pages/api/search.json.ts | 50 ++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 53 insertions(+)
+```
+
 ### 02:25:55 - Pagination Component
 
 ### 02:34:05 - Disable Prev & Next
