@@ -561,6 +561,19 @@ Date:   Sun Dec 31 09:49:51 2023 -0300
 
 ### 02:04:29 - Search Page
 
+- Comments based on the transcript
+
+```text
+...so we're going to start on our search [functionality]. We have the search component here but obviously it doesn't do anything. [There is a non-functional] search form [rendered in]... the form tag.... Since this is an SSR website we can actually just just put an action here [in the form] and it will submit to that page unlike if this were a static site we would... add some script tags frontend JavaScript and probably submit to an API endpoint which I am actually going to show you in the next [section] I'm going to show you how to set up an endpoint where you know you can get Jason data back from a search term but we won't actually need that for the application [since it is in SSR mode] it's just for learning purposes. We're going to, ultimately, just submit to a page so let's say action and for the action we're going to go slash articles slash search... so we we can just create a search dot astro in the articles folder and then we can basically just get the data from there and we can get it from our collection.
+```
+
+- The `search.astro` page actually filters all articles for inclusion of search text (Astro url param function) in titles, body and slug
+- Search form is included also on the results page in order to facilitate reuse.
+
+```bash
+
+```
+
 ### 02:16:15 - API Endpoints
 
 ### 02:25:55 - Pagination Component
