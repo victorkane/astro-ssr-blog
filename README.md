@@ -1,5 +1,8 @@
 # Astro SSR Blog
 
+- Following course commit by commit, lesson by lesson
+- 2023-12-31 Course Completed 🚀
+
 ## Ref
 
 - [YT Traversy Media 2023-12-18 Astro Quick Start Course | Build an SSR Blog](https://youtu.be/XoIHKO6AkoM?si=SASPBUTBb5rlnGLx)
@@ -602,6 +605,20 @@ Date:   Sun Dec 31 14:58:39 2023 -0300
 ```
 
 ### 02:25:55 - Pagination Component / 02:34:05 - Disable Prev & Next
+
+```bash
+commit 86fb13a5cbff53e45de0e5deeb337efa3a3e52ba (HEAD -> main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Sun Dec 31 15:50:08 2023 -0300
+
+    feat(UI): Pagination Component - Disable Prev & Next
+
+ README.md                       | 52 ++-------------------------------------
+ src/components/Pagination.astro | 23 +++++++++++++++++
+ src/constants.ts                |  5 ++--
+ src/pages/articles/index.astro  | 65 +++++++++++++++++++++++++------------------------
+ 4 files changed, 60 insertions(+), 85 deletions(-)
+```
 
 ### 02:39:36 - Vercel Deployment
 
